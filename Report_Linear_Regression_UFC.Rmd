@@ -1,5 +1,5 @@
 ---
-title: "JACKSON-Term Project"
+title: "Linear Regression Report"
 author: "Tyler Jackson"
 date: "03/02/2021"
 output:
@@ -351,11 +351,6 @@ There are some limitations of the model worth noting. For example, as the *Round
 
 Another limitation to this data set were some of the outliers represented fighters that have fought lower amounts of rounds but have won most of them. This could have been due to the lack of experience of their opponents in their early fights and would not be representative to the fights later in their career when they reach the top 10 opponents. Although this is a potential limitation, there was such a large amount of data that the model was minimally affected by these points (R^2 1% change). 
 
-
-
-```{r write-csv}
-write.csv(data.final,file = "DataSetAfterCleaning.csv")
-```
 
 \newpage
 ## Appendix: R Code
